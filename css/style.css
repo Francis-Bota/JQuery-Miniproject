@@ -1,0 +1,29 @@
+body {
+background-color: #a3e6cc;
+
+}
+
+#container {
+    background-color: #685311;
+    padding: 12px;
+    margin: 12px;
+    height: 100%;
+}
+
+.item {
+    width: 250px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item .name {
+    font-size: 30px;
+}
+
+.item .price{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
