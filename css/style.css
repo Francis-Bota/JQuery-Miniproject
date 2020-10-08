@@ -32,3 +32,6 @@ background-color: #d8d8d8;
     margin-bottom: 8px;
 }
 
+.item .more-info {
+    display: none;
+}
