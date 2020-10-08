@@ -89,5 +89,29 @@ $(document).ready(function (){
             }
         });
     });
-});
+    
+    $('#newsletter-checkbox').on('change',function(){
+        if ($(this).is(':checked')){
+            $('#newsletter-frequency').fadeIn();
+        }else{
+            $('#newsletter-frequency').fadeOut();
+        }
+    });
+    $('#newletter-checkbox').trigger('change');
 
+    $('#cart-form').on('submit',function(event){
+        event.preventDefault();
+
+        let data = { form: $(this).serialize(),
+            price: cart};
+
+        $.ajax($(this).attr('action'),{
+            type: 'POST',
+            data: data
+        })
+        .done(function(response){
+            alert('#feedback-message').text(response.message);
+            
+        });
+    });
+});
