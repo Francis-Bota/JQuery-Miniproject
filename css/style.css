@@ -1,17 +1,22 @@
+
+
 body {
-background-color: #a3e6cc;
+background-color: #d8d8d8;
 
 }
 
 #container {
-    background-color: #685311;
+    background-color: #619194;
     padding: 12px;
     margin: 12px;
     height: 100%;
 }
 
 .item {
-    width: 250px;
+    width: 200px;
+    background-color: #d8d8d8;
+    float: left;
+    scroll-margin-left: 10px;
 }
 
 .item img {
@@ -19,7 +24,7 @@ background-color: #a3e6cc;
 }
 
 .item .name {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .item .price{
