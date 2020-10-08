@@ -1,15 +1,21 @@
 
 
 body {
-background-color: #d8d8d8;
+background-color: #EEE;
 
 }
 
 #container {
-    background-color: #619194;
+    background-color: #FFF;
     padding: 12px;
     margin: 12px;
-    height: 100%;
+}
+
+#cart-container {
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    padding: 12px;
 }
 
 .item {
